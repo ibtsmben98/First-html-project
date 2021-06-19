@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html >
+  <head>
+
+    <title>Mon Premier Formulaire</title>
+  </head>
+  <body>
+    <h1>Votre Avis Nous Interesse</h1>
+    <table style="width:100%">
+        <tr>
+
+            <th style= "text-align: left">
+                <form action="/action_page.php">
+                     <fieldset>
+                           <legend>Informations Personnelles</legend>
+                           <ol>
+                             <li>
+                               <label for="Nom">Nom</label>
+                                <input type="text" id="name" >
+                               </li>
+                               <li><label for="date">Date de naissance</label>
+                               <input type="date" id="date" ></li>
+                               <li><label for="site">site</label>
+                               <input type="url" id="site" ></li>
+                               <li><label for="emp">Emploi</label>
+                                 <select id="emp" name="Emploi">
+                                    <option value="etu">Etudiant</option>
+                                    <option value="adm">Administrateur</option>
+                                    <option value="rse">Réseau</option>
+                                    <option value="devw">Développeur Web</option>
+                                    <option value="webDs">Web designer</option>
+                                    <option value="devo">DevOps</option>
+                                  </select>
+                               <li><label for="salaire">Appox Salaire annuel</label> <input type="number" id="salaire"  value="0"step="1000"></li>
+                           </ol>
+                    </fieldset>
+                </form>
+           </th>
+           <th style= "text-align: left">
+               <form action="/action_page.php">
+                    <fieldset>
+                          <legend>Informations de Contact</legend>
+                          <ol>
+                              <li><label for="Adr1">Address Ligne 1</label>
+                                <input type="text" id="Adr2" ></li>
+                              <li><label for="Adr2">Address Ligne 2</label>
+                              <input type="text" id="Adr2" ></li>
+                              <li><label for="pay">Pays</label>
+                                <select id="pay" name="Pays">
+                                   <option value="alg">Algérie</option>
+                                   <option value="tuni">Tunisie</option>
+                                   <option value="marc">Maroc</option>
+                                 </select>
+
+
+                              </li>
+                              <li><label for="tel">Tél</label>
+                                <input type="tel" id="tel" >
+                               </li>
+                              <li><label for="mail">Courriel</label>
+                                <input type="email" id="mail" >
+                              </li>
+                          </ol>
+                   </fieldset>
+               </form>
+          </th>
+        </tr>
+    </table>
+    <div >
+      <h2>Préférence</h2>
+      <label for="color">Choisir une couleur</label> <input type="color" id="color" ><br>
+      <label for="degre">Sur une échelle de 1 à 10 , quel est votre degré d'enthouiasme pour HTML5?</label> <input type="range" id="degre" min="1" max="10"><br>
+       <input type="button" value="Envoyer" >
+    </div>
+  </body>
+</html>
