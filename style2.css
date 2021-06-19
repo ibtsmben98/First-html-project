@@ -1,0 +1,53 @@
+#tri {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+
+  border-top: 100px solid #f00;
+}
+#oval{
+
+  width: 200px;
+  height: 100px;
+  background: dodgerblue;
+  border-radius: 60%;
+
+
+}
+#vir{
+  display: block;
+  width: 300px;
+  height: 350px;
+  background: dodgerblue;
+  border-radius: 5%;
+  padding: 8px 12px;
+  box-shadow: 3px 3px 15px gray;
+}
+#text{
+  text-shadow:1px 1px 6px black;
+  color: white;
+  text-align:inherit;
+
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+td, th {
+
+border-top:  2px solid #c9dff4;
+border-bottom:  2px solid #c9dff4;
+  text-align: left;
+  padding: 8px;
+}
+th{
+  background-color: #427fef;
+
+}
+tr:nth-child(2n+1) {
+  background-color: #eef7ff;
+}
